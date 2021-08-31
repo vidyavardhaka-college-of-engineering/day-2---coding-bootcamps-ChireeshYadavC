@@ -10,13 +10,15 @@
 int main()
 {
     int a, b, temp;
-    scanf("%d%d", &a, &b);
+    Printf("enter the values of a and b for swapping");
+    scanf("%d %d", &a,&b);
+    printf("values are %d and %d\n",a,b);
 
-    //Write your code here
-    
-    
+   temp=a;
+    a=b;
+    b=temp;
 
   
     printf("%d %d\n", a, b);
-    return 0;
+  
 }
